@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/eventhdlr.dir/src/cmain.c.o CMakeFiles/eventhdlr.dir/src/event_bestsol.c.o CMakeFiles/eventhdlr.dir/src/event_boundwriting.c.o -o ../../../bin/examples/eventhdlr  -Wl,-rpath,/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/lib ../../../lib/libscip.so.9.2.0.0

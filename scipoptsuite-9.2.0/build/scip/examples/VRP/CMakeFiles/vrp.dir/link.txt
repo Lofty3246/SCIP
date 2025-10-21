@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wno-psabi -O3 -DNDEBUG CMakeFiles/vrp.dir/src/main_vrp.cpp.o CMakeFiles/vrp.dir/src/pricer_vrp.cpp.o -o ../../../bin/examples/vrp  -Wl,-rpath,/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/lib ../../../lib/libscip.so.9.2.0.0

@@ -1,0 +1,10 @@
+read /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0_bak/scip/check/instances/MIP/p0033.osil
+read /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0_bak/scip/check/mipstarts/p0033.osil.mst
+presolve
+validatesolve 3089 3089
+read /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0_bak/scip/check/instances/MIP/p0033.osil
+read /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0_bak/scip/check/mipstarts/p0033.osil.mst
+set heuristics completesol beforepresol FALSE
+optimize
+validatesolve 3089 3089
+quit

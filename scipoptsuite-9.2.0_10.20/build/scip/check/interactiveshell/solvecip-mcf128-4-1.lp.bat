@@ -1,0 +1,6 @@
+read "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0_bak/scip"/check/"instances/Indicator/mcf128-4-1.lp"
+write problem temp/mcf128-4-1.lp.cip
+read temp/mcf128-4-1.lp.cip
+optimize
+validatesolve "14" "14"
+quit

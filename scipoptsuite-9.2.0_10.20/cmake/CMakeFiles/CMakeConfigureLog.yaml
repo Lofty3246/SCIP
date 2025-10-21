@@ -1,0 +1,12 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The target system is: GHS-MULTI -  - 
+      The host system is: Linux - 5.15.0-58-generic - x86_64
+...

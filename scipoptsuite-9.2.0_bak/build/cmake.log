@@ -1,0 +1,1 @@
+-DAUTOBUILD=on -DPAPILO=off -DZIMPL=off -DSANITIZE_UNDEFINED=on -DSOPLEX_DIR=/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0_bak/build -DSYM=snauty

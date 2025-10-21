@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/circlepacking.dir/src/circlepacking.c.o -o ../../../bin/examples/circlepacking  -Wl,-rpath,/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0_bak/build/lib ../../../lib/libscip.so.9.2.0.0 -lm
