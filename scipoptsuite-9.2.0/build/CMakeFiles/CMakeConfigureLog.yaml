@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-850QwZ"
-      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-850QwZ"
+      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-ULOzg6"
+      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-ULOzg6"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,13 +71,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-850QwZ'
+        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-ULOzg6'
         
-        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_13bb6/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_13bb6.dir/build.make CMakeFiles/cmTC_13bb6.dir/build
-        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-850QwZ'
-        Building C object CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o -c /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a834a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a834a.dir/build.make CMakeFiles/cmTC_a834a.dir/build
+        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-ULOzg6'
+        Building C object CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o -c /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -87,8 +87,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_13bb6.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_13bb6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc0p3fcw.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a834a.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a834a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccZMeaxB.s
         GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -108,14 +108,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 3f6cb05d963ad324b8f9442822c95179
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_13bb6.dir/'
-         as -v --64 -o CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o /tmp/cc0p3fcw.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a834a.dir/'
+         as -v --64 -o CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o /tmp/ccZMeaxB.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_13bb6
-        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13bb6.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_a834a
+        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a834a.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -128,14 +128,14 @@ events:
         gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_13bb6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_13bb6.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQupc5M.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_13bb6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a834a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a834a.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOSGYUZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a834a /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         collect2 version 11.3.0
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQupc5M.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_13bb6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOSGYUZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a834a /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.38
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_13bb6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_13bb6.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o -o cmTC_13bb6
-        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-850QwZ'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a834a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a834a.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o -o cmTC_a834a
+        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-ULOzg6'
         
       exitCode: 0
   -
@@ -170,13 +170,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-850QwZ']
+        ignore line: [Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-ULOzg6']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_13bb6/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_13bb6.dir/build.make CMakeFiles/cmTC_13bb6.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-850QwZ']
-        ignore line: [Building C object CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o -c /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a834a/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_a834a.dir/build.make CMakeFiles/cmTC_a834a.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-ULOzg6']
+        ignore line: [Building C object CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o -c /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -186,8 +186,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_13bb6.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_13bb6.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc0p3fcw.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a834a.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a834a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccZMeaxB.s]
         ignore line: [GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -207,14 +207,14 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 3f6cb05d963ad324b8f9442822c95179]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_13bb6.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o /tmp/cc0p3fcw.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a834a.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o /tmp/ccZMeaxB.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_13bb6]
-        ignore line: [/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13bb6.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_a834a]
+        ignore line: [/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a834a.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -227,13 +227,13 @@ events:
         ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_13bb6' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_13bb6.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQupc5M.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_13bb6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a834a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a834a.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOSGYUZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a834a /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccQupc5M.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccOSGYUZ.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -251,7 +251,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_13bb6] ==> ignore
+          arg [cmTC_a834a] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -264,7 +264,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -279,7 +279,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 11.3.0]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQupc5M.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_13bb6 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_13bb6.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOSGYUZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a834a /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_a834a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -317,8 +317,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-KqxkO1"
-      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-KqxkO1"
+      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-abn284"
+      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-abn284"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -328,13 +328,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-KqxkO1'
+        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-abn284'
         
-        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ac069/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_ac069.dir/build.make CMakeFiles/cmTC_ac069.dir/build
-        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-KqxkO1'
-        Building CXX object CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o -c /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2fe09/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2fe09.dir/build.make CMakeFiles/cmTC_2fe09.dir/build
+        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-abn284'
+        Building CXX object CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o -c /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
@@ -344,8 +344,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ac069.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ac069.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccgAjsan.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fe09.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2fe09.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDCaTJr.s
         GNU C++17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
         	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
         
@@ -369,14 +369,14 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 449548cbb29044828dc7ea158b577b98
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ac069.dir/'
-         as -v --64 -o CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccgAjsan.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fe09.dir/'
+         as -v --64 -o CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDCaTJr.s
         GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_ac069
-        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac069.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_2fe09
+        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fe09.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
@@ -389,14 +389,14 @@ events:
         gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ac069' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ac069.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOCV4bz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ac069 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2fe09' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2fe09.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuNCJnU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2fe09 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         collect2 version 11.3.0
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOCV4bz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ac069 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuNCJnU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2fe09 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.38
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ac069' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ac069.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ac069
-        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-KqxkO1'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2fe09' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2fe09.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2fe09
+        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-abn284'
         
       exitCode: 0
   -
@@ -437,13 +437,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-KqxkO1']
+        ignore line: [Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-abn284']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ac069/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ac069.dir/build.make CMakeFiles/cmTC_ac069.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-KqxkO1']
-        ignore line: [Building CXX object CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o -c /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2fe09/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_2fe09.dir/build.make CMakeFiles/cmTC_2fe09.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-abn284']
+        ignore line: [Building CXX object CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o -c /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
@@ -453,8 +453,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ac069.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ac069.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccgAjsan.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fe09.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2fe09.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDCaTJr.s]
         ignore line: [GNU C++17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
         ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
         ignore line: []
@@ -478,14 +478,14 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 449548cbb29044828dc7ea158b577b98]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ac069.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccgAjsan.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fe09.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDCaTJr.s]
         ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_ac069]
-        ignore line: [/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac069.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_2fe09]
+        ignore line: [/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fe09.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
@@ -498,13 +498,13 @@ events:
         ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ac069' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ac069.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOCV4bz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ac069 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2fe09' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_2fe09.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuNCJnU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2fe09 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccOCV4bz.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccuNCJnU.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -522,7 +522,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_ac069] ==> ignore
+          arg [cmTC_2fe09] ==> ignore
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
@@ -535,7 +535,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -546,7 +546,7 @@ events:
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         ignore line: [collect2 version 11.3.0]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOCV4bz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ac069 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_ac069.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuNCJnU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2fe09 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_2fe09.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
@@ -584,8 +584,8 @@ events:
       - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
       - "CMakeLists.txt:84 (find_package)"
     directories:
-      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-t6J8uV"
-      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-t6J8uV"
+      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-S92bKC"
+      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-S92bKC"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -595,17 +595,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-t6J8uV'
+        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-S92bKC'
         
-        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2cad1/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_2cad1.dir/build.make CMakeFiles/cmTC_2cad1.dir/build
-        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-t6J8uV'
-        Building C object CMakeFiles/cmTC_2cad1.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_2cad1.dir/src.c.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-t6J8uV/src.c
-        Linking C executable cmTC_2cad1
-        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cad1.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_2cad1.dir/src.c.o -o cmTC_2cad1
-        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-t6J8uV'
+        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5b3b5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5b3b5.dir/build.make CMakeFiles/cmTC_5b3b5.dir/build
+        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-S92bKC'
+        Building C object CMakeFiles/cmTC_5b3b5.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5b3b5.dir/src.c.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-S92bKC/src.c
+        Linking C executable cmTC_5b3b5
+        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b3b5.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_5b3b5.dir/src.c.o -o cmTC_5b3b5
+        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-S92bKC'
         
       exitCode: 0
   -
@@ -617,8 +617,8 @@ events:
     checks:
       - "Looking for FE_DOWNWARD"
     directories:
-      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-dYHCj7"
-      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-dYHCj7"
+      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GcuC7f"
+      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GcuC7f"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -628,17 +628,17 @@ events:
       variable: "LINUX_ROUNDING"
       cached: true
       stdout: |
-        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-dYHCj7'
+        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GcuC7f'
         
-        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_34bc9/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_34bc9.dir/build.make CMakeFiles/cmTC_34bc9.dir/build
-        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-dYHCj7'
-        Building C object CMakeFiles/cmTC_34bc9.dir/CheckSymbolExists.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_34bc9.dir/CheckSymbolExists.c.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-dYHCj7/CheckSymbolExists.c
-        Linking C executable cmTC_34bc9
-        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34bc9.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_34bc9.dir/CheckSymbolExists.c.o -o cmTC_34bc9
-        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-dYHCj7'
+        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7142d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7142d.dir/build.make CMakeFiles/cmTC_7142d.dir/build
+        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GcuC7f'
+        Building C object CMakeFiles/cmTC_7142d.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_7142d.dir/CheckSymbolExists.c.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GcuC7f/CheckSymbolExists.c
+        Linking C executable cmTC_7142d
+        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7142d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_7142d.dir/CheckSymbolExists.c.o -o cmTC_7142d
+        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GcuC7f'
         
       exitCode: 0
   -
@@ -649,12 +649,12 @@ events:
       - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CheckCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
       - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/GenerateExportHeader.cmake:244 (check_compiler_flag)"
       - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/GenerateExportHeader.cmake:425 (_test_compiler_hidden_visibility)"
-      - "scip/src/CMakeLists.txt:1086 (generate_export_header)"
+      - "scip/src/CMakeLists.txt:1088 (generate_export_header)"
     checks:
       - "Performing Test COMPILER_HAS_HIDDEN_VISIBILITY"
     directories:
-      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-uLMzTx"
-      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-uLMzTx"
+      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-rWzc7R"
+      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-rWzc7R"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wno-psabi"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -664,17 +664,17 @@ events:
       variable: "COMPILER_HAS_HIDDEN_VISIBILITY"
       cached: true
       stdout: |
-        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-uLMzTx'
+        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-rWzc7R'
         
-        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b3ea6/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_b3ea6.dir/build.make CMakeFiles/cmTC_b3ea6.dir/build
-        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-uLMzTx'
-        Building CXX object CMakeFiles/cmTC_b3ea6.dir/src.cxx.o
-        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wno-psabi  -std=gnu++17   -fvisibility=hidden -o CMakeFiles/cmTC_b3ea6.dir/src.cxx.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-uLMzTx/src.cxx
-        Linking CXX executable cmTC_b3ea6
-        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3ea6.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wno-psabi  CMakeFiles/cmTC_b3ea6.dir/src.cxx.o -o cmTC_b3ea6
-        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-uLMzTx'
+        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_141ff/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_141ff.dir/build.make CMakeFiles/cmTC_141ff.dir/build
+        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-rWzc7R'
+        Building CXX object CMakeFiles/cmTC_141ff.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -Wno-psabi  -std=gnu++17   -fvisibility=hidden -o CMakeFiles/cmTC_141ff.dir/src.cxx.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-rWzc7R/src.cxx
+        Linking CXX executable cmTC_141ff
+        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_141ff.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-psabi  CMakeFiles/cmTC_141ff.dir/src.cxx.o -o cmTC_141ff
+        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-rWzc7R'
         
       exitCode: 0
   -
@@ -685,12 +685,12 @@ events:
       - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/CheckCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
       - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/GenerateExportHeader.cmake:245 (check_compiler_flag)"
       - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/GenerateExportHeader.cmake:425 (_test_compiler_hidden_visibility)"
-      - "scip/src/CMakeLists.txt:1086 (generate_export_header)"
+      - "scip/src/CMakeLists.txt:1088 (generate_export_header)"
     checks:
       - "Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
     directories:
-      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-JFpHgh"
-      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-JFpHgh"
+      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-EmfmRG"
+      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-EmfmRG"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wno-psabi"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -700,17 +700,17 @@ events:
       variable: "COMPILER_HAS_HIDDEN_INLINE_VISIBILITY"
       cached: true
       stdout: |
-        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-JFpHgh'
+        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-EmfmRG'
         
-        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1d1d3/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_1d1d3.dir/build.make CMakeFiles/cmTC_1d1d3.dir/build
-        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-JFpHgh'
-        Building CXX object CMakeFiles/cmTC_1d1d3.dir/src.cxx.o
-        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wno-psabi  -std=gnu++17   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_1d1d3.dir/src.cxx.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-JFpHgh/src.cxx
-        Linking CXX executable cmTC_1d1d3
-        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d1d3.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wno-psabi  CMakeFiles/cmTC_1d1d3.dir/src.cxx.o -o cmTC_1d1d3
-        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-JFpHgh'
+        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46257/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_46257.dir/build.make CMakeFiles/cmTC_46257.dir/build
+        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-EmfmRG'
+        Building CXX object CMakeFiles/cmTC_46257.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -Wno-psabi  -std=gnu++17   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_46257.dir/src.cxx.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-EmfmRG/src.cxx
+        Linking CXX executable cmTC_46257
+        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46257.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-psabi  CMakeFiles/cmTC_46257.dir/src.cxx.o -o cmTC_46257
+        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-EmfmRG'
         
       exitCode: 0
   -
@@ -721,12 +721,12 @@ events:
       - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/GenerateExportHeader.cmake:212 (check_source_compiles)"
       - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/GenerateExportHeader.cmake:269 (_check_cxx_compiler_attribute)"
       - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/GenerateExportHeader.cmake:426 (_test_compiler_has_deprecated)"
-      - "scip/src/CMakeLists.txt:1086 (generate_export_header)"
+      - "scip/src/CMakeLists.txt:1088 (generate_export_header)"
     checks:
       - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
     directories:
-      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GdQsy4"
-      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GdQsy4"
+      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GINBTX"
+      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GINBTX"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wno-psabi"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -736,24 +736,24 @@ events:
       variable: "COMPILER_HAS_DEPRECATED_ATTR"
       cached: true
       stdout: |
-        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GdQsy4'
+        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GINBTX'
         
-        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_edd48/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_edd48.dir/build.make CMakeFiles/cmTC_edd48.dir/build
-        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GdQsy4'
-        Building CXX object CMakeFiles/cmTC_edd48.dir/src.cxx.o
-        /usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -Wno-psabi  -std=gnu++17 -o CMakeFiles/cmTC_edd48.dir/src.cxx.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GdQsy4/src.cxx
-        /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GdQsy4/src.cxx: In function ‘int main()’:
-        /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GdQsy4/src.cxx:2:33: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
+        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_78285/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_78285.dir/build.make CMakeFiles/cmTC_78285.dir/build
+        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GINBTX'
+        Building CXX object CMakeFiles/cmTC_78285.dir/src.cxx.o
+        /usr/bin/c++ -DCOMPILER_HAS_DEPRECATED_ATTR  -Wno-psabi  -std=gnu++17 -o CMakeFiles/cmTC_78285.dir/src.cxx.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GINBTX/src.cxx
+        /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GINBTX/src.cxx: In function ‘int main()’:
+        /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GINBTX/src.cxx:2:33: warning: ‘int somefunc()’ is deprecated [-Wdeprecated-declarations]
             2 |     int main() { return somefunc();}
               |                         ~~~~~~~~^~
-        /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GdQsy4/src.cxx:1:37: note: declared here
+        /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GINBTX/src.cxx:1:37: note: declared here
             1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
               |                                     ^~~~~~~~
-        Linking CXX executable cmTC_edd48
-        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edd48.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wno-psabi  CMakeFiles/cmTC_edd48.dir/src.cxx.o -o cmTC_edd48
-        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GdQsy4'
+        Linking CXX executable cmTC_78285
+        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78285.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-psabi  CMakeFiles/cmTC_78285.dir/src.cxx.o -o cmTC_78285
+        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-GINBTX'
         
       exitCode: 0
   -
@@ -765,8 +765,8 @@ events:
       - "ug/CMakeLists.txt:374 (find_package)"
     description: "The MPI test test_mpi for C in mode normal"
     directories:
-      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-CH9dcQ"
-      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-CH9dcQ"
+      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-QaY1UJ"
+      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-QaY1UJ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -776,17 +776,17 @@ events:
       variable: "MPI_RESULT_C_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-CH9dcQ'
+        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-QaY1UJ'
         
-        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8f2ab/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_8f2ab.dir/build.make CMakeFiles/cmTC_8f2ab.dir/build
-        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-CH9dcQ'
-        Building C object CMakeFiles/cmTC_8f2ab.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_8f2ab.dir/test_mpi.c.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-CH9dcQ/test_mpi.c
-        Linking C executable cmTC_8f2ab
-        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f2ab.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_8f2ab.dir/test_mpi.c.o -o cmTC_8f2ab  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
-        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-CH9dcQ'
+        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_682bb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_682bb.dir/build.make CMakeFiles/cmTC_682bb.dir/build
+        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-QaY1UJ'
+        Building C object CMakeFiles/cmTC_682bb.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_682bb.dir/test_mpi.c.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-QaY1UJ/test_mpi.c
+        Linking C executable cmTC_682bb
+        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_682bb.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_682bb.dir/test_mpi.c.o -o cmTC_682bb  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-QaY1UJ'
         
       exitCode: 0
   -
@@ -798,8 +798,8 @@ events:
       - "ug/CMakeLists.txt:374 (find_package)"
     description: "The MPI test test_mpi for CXX in mode normal"
     directories:
-      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-qqFmSz"
-      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-qqFmSz"
+      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-0s87Bv"
+      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-0s87Bv"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wno-psabi"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -809,17 +809,17 @@ events:
       variable: "MPI_RESULT_CXX_test_mpi_normal"
       cached: true
       stdout: |
-        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-qqFmSz'
+        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-0s87Bv'
         
-        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8e69e/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_8e69e.dir/build.make CMakeFiles/cmTC_8e69e.dir/build
-        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-qqFmSz'
-        Building CXX object CMakeFiles/cmTC_8e69e.dir/test_mpi.cpp.o
-        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -Wno-psabi  -std=gnu++14 -o CMakeFiles/cmTC_8e69e.dir/test_mpi.cpp.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-qqFmSz/test_mpi.cpp
-        Linking CXX executable cmTC_8e69e
-        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e69e.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wno-psabi  CMakeFiles/cmTC_8e69e.dir/test_mpi.cpp.o -o cmTC_8e69e  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
-        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-qqFmSz'
+        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f3294/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f3294.dir/build.make CMakeFiles/cmTC_f3294.dir/build
+        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-0s87Bv'
+        Building CXX object CMakeFiles/cmTC_f3294.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -Wno-psabi  -std=gnu++14 -o CMakeFiles/cmTC_f3294.dir/test_mpi.cpp.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-0s87Bv/test_mpi.cpp
+        Linking CXX executable cmTC_f3294
+        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3294.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-psabi  CMakeFiles/cmTC_f3294.dir/test_mpi.cpp.o -o cmTC_f3294  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-0s87Bv'
         
       exitCode: 0
   -
@@ -830,8 +830,8 @@ events:
       - "ug/CMakeLists.txt:374 (find_package)"
     description: "The MPI test test_mpi for CXX in mode MPICXX"
     directories:
-      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-oPgP37"
-      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-oPgP37"
+      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-Gf5JP1"
+      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-Gf5JP1"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wno-psabi"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -841,125 +841,17 @@ events:
       variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
       cached: true
       stdout: |
-        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-oPgP37'
+        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-Gf5JP1'
         
-        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5c724/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5c724.dir/build.make CMakeFiles/cmTC_5c724.dir/build
-        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-oPgP37'
-        Building CXX object CMakeFiles/cmTC_5c724.dir/test_mpi.cpp.o
-        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -Wno-psabi  -std=gnu++14 -o CMakeFiles/cmTC_5c724.dir/test_mpi.cpp.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-oPgP37/test_mpi.cpp
-        Linking CXX executable cmTC_5c724
-        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c724.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wno-psabi  CMakeFiles/cmTC_5c724.dir/test_mpi.cpp.o -o cmTC_5c724  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
-        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-oPgP37'
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/FindMPI.cmake:1286 (try_compile)"
-      - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/FindMPI.cmake:1330 (_MPI_try_staged_settings)"
-      - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/FindMPI.cmake:1653 (_MPI_check_lang_works)"
-      - "ug/CMakeLists.txt:374 (find_package)"
-    description: "The MPI test test_mpi for C in mode normal"
-    directories:
-      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-OC6k5W"
-      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-OC6k5W"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/ug/cmake/Modules"
-    buildResult:
-      variable: "MPI_RESULT_C_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-OC6k5W'
-        
-        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bf8e5/fast
-        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-OC6k5W'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_bf8e5.dir/build.make CMakeFiles/cmTC_bf8e5.dir/build
-        gmake[2]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-OC6k5W'
-        Building C object CMakeFiles/cmTC_bf8e5.dir/test_mpi.c.o
-        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_bf8e5.dir/test_mpi.c.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-OC6k5W/test_mpi.c
-        Linking C executable cmTC_bf8e5
-        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf8e5.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_bf8e5.dir/test_mpi.c.o -o cmTC_bf8e5  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
-        gmake[2]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-OC6k5W'
-        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-OC6k5W'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/FindMPI.cmake:1286 (try_compile)"
-      - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/FindMPI.cmake:1330 (_MPI_try_staged_settings)"
-      - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/FindMPI.cmake:1653 (_MPI_check_lang_works)"
-      - "ug/CMakeLists.txt:374 (find_package)"
-    description: "The MPI test test_mpi for CXX in mode normal"
-    directories:
-      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-fBwrFj"
-      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-fBwrFj"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: " -Wno-psabi"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/ug/cmake/Modules"
-    buildResult:
-      variable: "MPI_RESULT_CXX_test_mpi_normal"
-      cached: true
-      stdout: |
-        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-fBwrFj'
-        
-        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_764ff/fast
-        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-fBwrFj'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_764ff.dir/build.make CMakeFiles/cmTC_764ff.dir/build
-        gmake[2]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-fBwrFj'
-        Building CXX object CMakeFiles/cmTC_764ff.dir/test_mpi.cpp.o
-        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -Wno-psabi  -std=gnu++14 -o CMakeFiles/cmTC_764ff.dir/test_mpi.cpp.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-fBwrFj/test_mpi.cpp
-        Linking CXX executable cmTC_764ff
-        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_764ff.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wno-psabi  CMakeFiles/cmTC_764ff.dir/test_mpi.cpp.o -o cmTC_764ff  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
-        gmake[2]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-fBwrFj'
-        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-fBwrFj'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/FindMPI.cmake:1286 (try_compile)"
-      - "/home/lsy/Downloads/cmake-4.0.4-linux-x86_64/share/cmake-4.0/Modules/FindMPI.cmake:1680 (_MPI_try_staged_settings)"
-      - "ug/CMakeLists.txt:374 (find_package)"
-    description: "The MPI test test_mpi for CXX in mode MPICXX"
-    directories:
-      source: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-iP8Sm9"
-      binary: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-iP8Sm9"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: " -Wno-psabi"
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/ug/cmake/Modules"
-    buildResult:
-      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
-      cached: true
-      stdout: |
-        Change Dir: '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-iP8Sm9'
-        
-        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cfdb9/fast
-        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-iP8Sm9'
-        /usr/bin/gmake  -f CMakeFiles/cmTC_cfdb9.dir/build.make CMakeFiles/cmTC_cfdb9.dir/build
-        gmake[2]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-iP8Sm9'
-        Building CXX object CMakeFiles/cmTC_cfdb9.dir/test_mpi.cpp.o
-        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -Wno-psabi  -std=gnu++14 -o CMakeFiles/cmTC_cfdb9.dir/test_mpi.cpp.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-iP8Sm9/test_mpi.cpp
-        Linking CXX executable cmTC_cfdb9
-        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfdb9.dir/link.txt --verbose=1
-        /usr/bin/c++  -Wno-psabi  CMakeFiles/cmTC_cfdb9.dir/test_mpi.cpp.o -o cmTC_cfdb9  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
-        gmake[2]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-iP8Sm9'
-        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-iP8Sm9'
+        Run Build Command(s): /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_419af/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_419af.dir/build.make CMakeFiles/cmTC_419af.dir/build
+        gmake[1]: Entering directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-Gf5JP1'
+        Building CXX object CMakeFiles/cmTC_419af.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -Wno-psabi  -std=gnu++14 -o CMakeFiles/cmTC_419af.dir/test_mpi.cpp.o -c /home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-Gf5JP1/test_mpi.cpp
+        Linking CXX executable cmTC_419af
+        /home/lsy/Downloads/cmake-4.0.4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_419af.dir/link.txt --verbose=1
+        /usr/bin/c++  -Wno-psabi  CMakeFiles/cmTC_419af.dir/test_mpi.cpp.o -o cmTC_419af  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
+        gmake[1]: Leaving directory '/home/lsy/Desktop/HUAWEI/scipoptsuite-9.2.0/build/CMakeFiles/CMakeScratch/TryCompile-Gf5JP1'
         
       exitCode: 0
 ...

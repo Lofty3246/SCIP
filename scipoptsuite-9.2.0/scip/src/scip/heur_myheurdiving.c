@@ -224,17 +224,15 @@ SCIP_DECL_DIVESETGETSCORE(divesetGetScoreMyheurdiving)
    {
       Py_Initialize();
    }
-
+   
    PyObject *pName, *pModule, *pFunc;
    PyObject *pArgs, *pValue;
    PyRun_SimpleString("import sys");
-   PyRun_SimpleString("sys.path.append('.')"); // Current directory
-   char name[128] = "func_helper";
+   PyRun_SimpleString("sys.path.append('/home/lsy/Desktop/HUAWEI/exp_scip')"); // Current directory
    char moduleName[128] = "myheurdiving_helper";
-   pName = PyUnicode_DecodeFSDefault(name);
-   pModule = PyImport_ImportModule(pName);
-
-   Py_DECREF(pName);
+   // pName = PyUnicode_DecodeFSDefault(name);
+   pModule = PyImport_ImportModule("func_helper");
+   
    if (pModule != NULL)
    {
       pFunc = PyObject_GetAttrString(pModule, moduleName);
@@ -283,35 +281,40 @@ SCIP_DECL_DIVESETGETSCORE(divesetGetScoreMyheurdiving)
                {
                   *roundup = proundup;
                   *score = pscore;
-               }}
-               else
-               {
-                  PyErr_Print();
-                  fprintf(stderr, "Python function returned invalid roundup value\n");
                }
-               Py_DECREF(pValue);
             }
             else
             {
-               Py_DECREF(pFunc);
-               Py_DECREF(pModule);
                PyErr_Print();
-               SCIPerrorMessage("Python function call failed\n");
-               assert(0);
-               return 1;
+               fprintf(stderr, "Python function returned invalid roundup value\n");
             }
+
+         Py_DECREF(pValue);
+
          }
          else
          {
-            if (PyErr_Occurred())
-               PyErr_Print();
+            Py_DECREF(pFunc);
+            Py_DECREF(pModule);
+            PyErr_Print();
+            SCIPerrorMessage("Python function call failed\n");
+            assert(0);
+            return 1;
          }
-         Py_XDECREF(pFunc);
-         Py_DECREF(pModule);
+      }
+      else
+      {
+         if (PyErr_Occurred())
+            PyErr_Print();
+      }
+      Py_XDECREF(pFunc);
+      Py_DECREF(pModule);
         
-   }else{
-         PyErr_Print();
-         fprintf(stderr, "Failed to load \n");
+   }
+   else
+   {
+      PyErr_Print();
+         fprintf(stderr, "Failed to load. \n");
          assert(0);
          return 1;
       }
