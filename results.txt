@@ -1,0 +1,3 @@
+Average dis on 64 instance with size 20 is:   4.208 timecost:   0.058
+Average dis on 64 instance with size 50 is:   6.442 timecost:   0.276
+Average dis on 64 instance with size 100 is:   8.925 timecost:   0.995

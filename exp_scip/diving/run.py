@@ -17,7 +17,7 @@ class DIVING():
         self.heur_path = "/home/lsy/Desktop/HUAWEI/exp_scip/diving.py"
         self.prompts = GetPrompts()
     # --- 核心求解函数 ---
-    def solve_single_lp(self):
+    def solve_single_lp(self,folder_path):
         result = {
             "file": self.folder_path,
             "status": None,
@@ -34,12 +34,12 @@ class DIVING():
             # 创建模型
             model = Model()
             # 读取 LP 文件
-            model.readProblem(self.folder_path)
+            model.readProblem(folder_path)
             
             # 设置求解参数
             # model.setHeuristics(scip.SCIP_PARAMSETTING.OFF)  
             model.setParam("limits/time", 300)          # 时间限制 300 秒
-            model.setParam("display/verblevel", 4)      # 减少输出，提升性能（设为1可看进度）
+            model.setParam("display/verblevel", 1)      # 减少输出，提升性能（设为1可看进度）
             model.includeHeurMydiving()                 # 包含自定义潜水启发式
 
             # 记录开始时间
@@ -91,10 +91,8 @@ class DIVING():
 
         for i, file_path in enumerate(lp_files, 1):
             file_name = os.path.basename(file_path)
-            print(f" 正在求解 ({i}/{len(lp_files)}): {file_name}")
-
-            result = self.solve_single_lp()
-            print(f"  → 状态: {result['status']}, 求解时间: {result['solve_time']} 秒, GAP: {result['gap']}")
+            result = self.solve_single_lp(file_path)
+            print(f"{file_name}求解时间: {result['solve_time']} 秒, GAP: {result['gap']}")
             if result["status"] in ["optimal"]:
                 total_solve_time += result["solve_time"]
                 solved_count += 1
@@ -122,7 +120,7 @@ class DIVING():
                 # Add the module to sys.modules so it can be imported
                 sys.modules[heuristic_module.__name__] = heuristic_module
 
-                fitness = self.evaluateGreedy(heuristic_module)
+                fitness = self.evaluateGreedy()
 
                 return fitness
         except Exception as e:

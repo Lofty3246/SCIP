@@ -101,5 +101,27 @@ if __name__ == "__main__":
     batch_solve_lp_folder(lp_folder)
     
 # only scip facility
-# solving time= 624.92
-# relative primal gap= 0.0
+# solving time= 624.92(617.47)
+
+# diving for facility
+# solving time= 495.55(492.66)
+# 20.7%
+
+# diving for indset
+# solving time= 114.15
+
+# only scip indset
+# solving time= 113.51(114.6)
+
+
+# only scip setcover
+# solving time= 239.56
+
+# diving for setcover
+# solving time= 267.07
+
+# only scip ca
+# solving time= 48.58
+
+# diving for ca
+# solving time= 52.02
